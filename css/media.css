@@ -78,4 +78,6 @@
     .batton-autentification:hover{
         border: 2px solid #ffffff;
     } 
+    .header-section{
+        background-size: cover;
 }
