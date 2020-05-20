@@ -9,7 +9,7 @@
         display: flex;
         flex-wrap: wrap;
         align-content: center;
-        padding-top: 46px;
+        padding-top: 48px;
        
     }
 
@@ -18,7 +18,8 @@
         flex-direction: row-reverse;
         width: 100%;
         justify-content: space-between;
-        margin-bottom: 146px;
+        margin-bottom: 132px;
+        
     } 
 
     .logo, .autentification {
@@ -26,13 +27,15 @@
     }
 
     .meet-list{
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: flex-start;
+        margin-bottom: 20px;
     }
 
     .meet-item:nth-last-child(-n+2) {
-        margin-bottom: 0px;
+        margin-bottom: 50px;
     }
     .header-section-wraper{
         width: 500px;
@@ -40,26 +43,49 @@
     }
     .meet-section{
         width: 500px;
+        padding-top: 65px;
+
     }
     
     .header-section-title{
         font-size: 51px;
+        margin-bottom: 27px;
+        letter-spacing: -1px;
+    }
+
+    .header-section-description{
+        font-size: 24px;
+        color: #ffffff;
+        font-family: "Roboto";
+        font-weight: 300;
+        text-align: center;
+        width: 400px;
+        margin-bottom: 30px;
+    }
+
+    .find-button{
+        width: 225px;
     }
 
     .title-meet{
         width: 100%;
+        margin-bottom: 30px;
     }
 
     .meet-item:nth-child(2n){
         order:1;
     }
+
+    .see-partners{
+        width: 192px;
+    }
    
 }
 
-@media (min-width:940px){
+@media (min-width:960px){
 
     .section-contener{
-        width: 940px;
+        width: 960px;
     }
 
     .meet-item{
@@ -67,7 +93,7 @@
     }
 
     .meet-item:nth-last-child(-n+4) {
-        margin-bottom: 0px;
+        margin-bottom: 14px;
     }
 
 

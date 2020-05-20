@@ -29,7 +29,7 @@ img{
     margin-bottom: 115px;
 }
 
-.batton-autentification{
+.button-autentification{
     width: 90px;
     height: 36px;
     border-radius: 18px;
@@ -42,7 +42,7 @@ img{
     text-align: center;
 }
 
-.batton-autentification:focus{
+.button-autentification:focus{
     border: 2px solid #ffffff;
     cursor: pointer;
 }
@@ -64,7 +64,7 @@ img{
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 12px;
+    margin-bottom: 6px;
 }
 
 .header-section-description{
@@ -73,7 +73,7 @@ img{
     font-family: "Roboto";
     font-weight: 300;
     text-align: center;
-    width: 236px;
+    width: 232px;
     margin: 0 auto;
     margin-bottom: 16px;
 }
@@ -104,24 +104,24 @@ img{
     font-family: "Montserrat";
     font-weight: 700;
     text-align: center;
-    margin-bottom: 18px;
+    margin-bottom: 12px;
 }
 
 .meet-list{
     margin: 0 auto;
     display: block;
-    margin-bottom: 26px;
+    margin-bottom: 30px;
 }
 
 .meet-item{
     text-align: center;
-    width: 236px;
+    width: 232px;
     margin: 0 auto;
     
 }
 
 .meet-item:not(:nth-last-child(-n+1)) {
-    margin-bottom: 26px;
+    margin-bottom: 23px;
 }
 
 .wraper-person-img{
@@ -136,12 +136,12 @@ img{
     font-family: "Montserrat";
     font-weight: 700;
     text-align: center;
-    margin-bottom: 18px;
+    margin-bottom: 12px;
 }
  
 .photo-meet{
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     
 }
 
